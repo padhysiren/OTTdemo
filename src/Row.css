@@ -1,0 +1,24 @@
+.row{
+    color: #fff;
+    margin-left: 20px;
+    
+}
+.row_title{
+    margin-top: 5px;
+}
+.row_posters{
+    margin: 5px;
+}
+
+.row_poster{
+    max-height: 120px;
+    object-fit: contain;
+
+    &:hover {
+        transform: scale(1.04);
+        /* opacity: 1; */
+        transition: all 0.3s;
+        z-index: 1;
+}
+}
+
